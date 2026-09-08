@@ -1,0 +1,23 @@
+artifact_path: file:///d:/E Drive/Sentiflow-Network Intrusion Detection/Notebooks/mlruns/1/models/m-24d55927ffc44e43a795d560a232833d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-24d55927ffc44e43a795d560a232833d
+model_size_bytes: 2212
+model_uuid: m-24d55927ffc44e43a795d560a232833d
+prompts: null
+run_id: b7d7d6d814cb4b2f833e19188d67c161
+utc_time_created: '2026-08-04 09:34:03.372463'

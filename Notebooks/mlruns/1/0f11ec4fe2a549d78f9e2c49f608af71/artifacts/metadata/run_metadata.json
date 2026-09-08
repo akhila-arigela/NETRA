@@ -1,0 +1,9 @@
+{
+  "python": "3.10.4",
+  "sklearn": "1.7.2",
+  "mlflow": "3.14.0",
+  "unknown_ground_truth_available": false,
+  "global_novelty_validation": "leave-one-family-out proxy in source experiment",
+  "category_novelty_validation": "other-known-family rejection proxy in source experiments",
+  "u2r_category_model_low_confidence": true
+}

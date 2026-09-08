@@ -1,0 +1,15 @@
+artifact_path: file:///D:/E Drive/Sentiflow-Network Intrusion Detection/mlruns/1/models/m-703c46cb593f44df879706232688d87d/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-703c46cb593f44df879706232688d87d
+model_size_bytes: 40515
+model_uuid: m-703c46cb593f44df879706232688d87d
+prompts: null
+run_id: 9714df49fffe4073b95a1d0b1868c46e
+utc_time_created: '2026-08-04 09:32:34.867857'

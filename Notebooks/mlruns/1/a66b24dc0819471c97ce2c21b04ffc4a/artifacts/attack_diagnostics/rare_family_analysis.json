@@ -1,0 +1,1 @@
+{"columns":["attack_family","support","detected","detection_rate","precision","recall","f1"],"data":[["R2L",23,5,0.2173913043,0.3846153846,0.2173913043,0.2777777778],["U2R",2,0,0.0,0.0,0.0,0.0]]}

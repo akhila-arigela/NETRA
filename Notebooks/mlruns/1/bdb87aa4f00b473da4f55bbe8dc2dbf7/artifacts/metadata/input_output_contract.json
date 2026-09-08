@@ -1,0 +1,8 @@
+{
+  "score_orientation": "larger means more anomalous",
+  "decision_rule": "anomaly_score >= threshold",
+  "output_labels": {
+    "0": "Normal",
+    "1": "Attack"
+  }
+}

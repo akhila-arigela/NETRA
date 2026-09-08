@@ -1,0 +1,39 @@
+{
+  "DoS": {
+    "precision": 0.9997749015194147,
+    "recall": 1.0,
+    "f1-score": 0.99988743809095,
+    "support": 8883.0
+  },
+  "Normal": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 21.0
+  },
+  "Probe": {
+    "precision": 0.9934239368697939,
+    "recall": 1.0,
+    "f1-score": 0.9967011216186497,
+    "support": 2266.0
+  },
+  "R2L": {
+    "precision": 0.9789473684210527,
+    "recall": 1.0,
+    "f1-score": 0.9893617021276596,
+    "support": 186.0
+  },
+  "accuracy": 0.9981507573089116,
+  "macro avg": {
+    "precision": 0.7430365517025653,
+    "recall": 0.75,
+    "f1-score": 0.7464875654593148,
+    "support": 11356.0
+  },
+  "weighted avg": {
+    "precision": 0.9963176560118203,
+    "recall": 0.9981507573089116,
+    "f1-score": 0.9972301981987948,
+    "support": 11356.0
+  }
+}

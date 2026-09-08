@@ -1,0 +1,1 @@
+{"columns":["attack_family","support","detected","detection_rate"],"data":[["DoS",1476,1350,0.9146341463],["Normal",2138,15,0.0070159027],["Probe",361,236,0.6537396122],["R2L",23,5,0.2173913043],["U2R",2,0,0.0]]}

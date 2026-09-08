@@ -1,0 +1,1 @@
+{"columns":["true_binary","Novel_Anomaly_Candidate","Return_Normal","Review","Route_to_Stage2"],"data":[["Attack",0.0001705611,0.0004264029,0.0004264029,0.9989766331],["Normal",0.0050486302,0.9503303883,0.044027025,0.0005939565]]}

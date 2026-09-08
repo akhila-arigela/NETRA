@@ -1,0 +1,14 @@
+{
+  "xgb_attack_probability": 0.0010882054,
+  "xgb_risk_band": "Low",
+  "normal_novelty_percentile": 1.0,
+  "novelty_band": "ExtremelyHigh",
+  "route": "NOVEL_ANOMALY_CANDIDATE",
+  "route_reason": "Low supervised risk but extreme deviation from normal",
+  "xgb_low_threshold": 0.0079290098,
+  "xgb_high_threshold": 0.1100879543,
+  "novelty_high_threshold": 0.9910924162,
+  "novelty_extreme_threshold": 0.9998762836,
+  "model_version": "stage1-router-v1",
+  "threshold_version": "routing-thresholds-v1"
+}

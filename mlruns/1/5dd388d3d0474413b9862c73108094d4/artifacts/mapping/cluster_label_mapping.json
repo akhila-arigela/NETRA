@@ -1,0 +1,38 @@
+{
+  "cluster_to_binary_label": {
+    "1": 0,
+    "2": 1,
+    "-1": 1,
+    "0": 0,
+    "3": 1,
+    "4": 1
+  },
+  "default_label": 0,
+  "training_contingency_matrix": [
+    [
+      16,
+      25
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      392,
+      44
+    ],
+    [
+      0,
+      210
+    ],
+    [
+      1,
+      61
+    ],
+    [
+      0,
+      32
+    ]
+  ],
+  "test_assignment": "nearest_core_point_within_eps"
+}

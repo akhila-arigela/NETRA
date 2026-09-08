@@ -1,0 +1,8 @@
+{
+  "supervised_attack_classifier": "Original_attackclass_randomforest",
+  "global_attack_novelty": "Original_global_attack_oneclasssvm",
+  "category_DoS": "Original_Dos_oneclasssvm",
+  "category_Probe": "Original_Probe_isolationforest",
+  "category_R2L": "Original_R2L_oneclasssvm",
+  "category_U2R": "Original_U2R_oneclasssvm"
+}

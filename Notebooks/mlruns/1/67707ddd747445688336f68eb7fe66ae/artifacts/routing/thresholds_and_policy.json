@@ -1,0 +1,31 @@
+{
+  "thresholds": {
+    "xgb_low": 0.00792900984028788,
+    "xgb_high": 0.11008795427776467,
+    "novelty_high": 0.9910924161821106,
+    "novelty_extreme": 0.9998762835580849
+  },
+  "validation_diagnostics": {
+    "xgb_high_fpr": 0.0009899764880584086,
+    "xgb_high_recall": 0.9987208641273451,
+    "xgb_high_precision": 0.998862828713575,
+    "xgb_low_attack_escape_rate": 0.0009948834565093804,
+    "xgb_low_region_attack_rate": 0.0008670878236095627,
+    "xgb_low_coverage": 0.5340345306608454,
+    "novelty_high_fpr": 0.009776017819576785,
+    "novelty_extreme_fpr": 0.0004949882440292043
+  },
+  "budgets": {
+    "xgb_auto_attack_fpr": 0.001,
+    "xgb_auto_normal_attack_escape_rate": 0.001,
+    "xgb_auto_normal_region_attack_rate": 0.001,
+    "novelty_high_fpr": 0.01,
+    "novelty_extreme_fpr": 0.001
+  },
+  "policy": {
+    "high_xgboost": "ROUTE_STAGE_2",
+    "low_xgboost_and_low_novelty": "RETURN_NORMAL",
+    "low_xgboost_and_extreme_novelty": "NOVEL_ANOMALY_CANDIDATE",
+    "otherwise": "REVIEW_DISAGREEMENT"
+  }
+}

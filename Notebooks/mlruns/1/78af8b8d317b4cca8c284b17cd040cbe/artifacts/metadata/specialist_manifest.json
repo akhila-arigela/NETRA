@@ -1,0 +1,34 @@
+{
+  "DoS": {
+    "algorithm": "IsolationForest",
+    "parameters": {
+      "n_estimators": 500,
+      "max_samples": 1.0
+    },
+    "threshold": -0.004173227596255854
+  },
+  "Probe": {
+    "algorithm": "IsolationForest",
+    "parameters": {
+      "n_estimators": 500,
+      "max_samples": 1.0
+    },
+    "threshold": -0.06214524351906051
+  },
+  "R2L": {
+    "algorithm": "OneClassSVM",
+    "parameters": {
+      "nu": 0.1,
+      "gamma": "scale"
+    },
+    "threshold": 31.971958582246337
+  },
+  "U2R": {
+    "algorithm": "OneClassSVM",
+    "parameters": {
+      "nu": 0.05,
+      "gamma": 0.01
+    },
+    "threshold": 25.994781635178796
+  }
+}

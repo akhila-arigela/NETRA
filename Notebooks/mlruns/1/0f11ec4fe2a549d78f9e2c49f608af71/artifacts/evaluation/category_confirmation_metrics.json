@@ -1,0 +1,1 @@
+{"columns":["predicted_category","algorithm","rows_scored","category_novelty_rejection_rate"],"data":[["DoS","OneClassSVM",17626,0.3968569159],["Probe","IsolationForest",4699,0.2494147691],["R2L","OneClassSVM",2730,0.0673992674],["U2R","OneClassSVM",140,0.3428571429]]}

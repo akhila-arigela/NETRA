@@ -1,0 +1,17 @@
+{
+  "cluster_to_binary_label": {
+    "0": 1,
+    "1": 0
+  },
+  "default_label": 0,
+  "training_contingency_matrix": [
+    [
+      525,
+      674
+    ],
+    [
+      3752,
+      3049
+    ]
+  ]
+}

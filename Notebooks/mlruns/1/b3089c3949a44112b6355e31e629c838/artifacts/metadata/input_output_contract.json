@@ -1,0 +1,72 @@
+{
+  "input": {
+    "type": "pandas.DataFrame",
+    "required_columns": [
+      "duration",
+      "protocoltype",
+      "service",
+      "flag",
+      "srcbytes",
+      "dstbytes",
+      "land",
+      "wrongfragment",
+      "urgent",
+      "hot",
+      "numfailedlogins",
+      "loggedin",
+      "numcompromised",
+      "rootshell",
+      "suattempted",
+      "numroot",
+      "numfilecreations",
+      "numshells",
+      "numaccessfiles",
+      "numoutboundcmds",
+      "ishostlogin",
+      "isguestlogin",
+      "count",
+      "srvcount",
+      "serrorrate",
+      "srvserrorrate",
+      "rerrorrate",
+      "srvrerrorrate",
+      "samesrvrate",
+      "diffsrvrate",
+      "srvdiffhostrate",
+      "dsthostcount",
+      "dsthostsrvcount",
+      "dsthostsamesrvrate",
+      "dsthostdiffsrvrate",
+      "dsthostsamesrcportrate",
+      "dsthostsrvdiffhostrate",
+      "dsthostserrorrate",
+      "dsthostsrvserrorrate",
+      "dsthostrerrorrate",
+      "dsthostsrvrerrorrate"
+    ]
+  },
+  "predict_output": {
+    "type": "integer class index",
+    "mapping": {
+      "0": "Normal",
+      "1": "DoS",
+      "2": "Probe",
+      "3": "R2L",
+      "4": "U2R"
+    }
+  },
+  "predict_proba_output": {
+    "shape": [
+      "rows",
+      5
+    ],
+    "column_order": [
+      "Normal",
+      "DoS",
+      "Probe",
+      "R2L",
+      "U2R"
+    ],
+    "row_sum": 1.0
+  }
+}

@@ -1,0 +1,1 @@
+{"columns":["attack_category","algorithm","precision","recall_detection_rate","f1","false_positive_rate","support"],"data":[["DoS","decisiontree",1.0,1.0,1.0,0.0,9259],["Probe","decisiontree",0.9991270188,1.0,0.9995633188,0.0002119318,2289],["R2L","randomforest",1.0,1.0,1.0,0.0,170],["U2R","randomforest",1.0,0.875,0.9333333333,0.0,8]]}

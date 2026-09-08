@@ -1,0 +1,121 @@
+{
+  "candidates": [
+    {
+      "candidate": 1,
+      "params": {
+        "eps": 0.7688974709753515,
+        "metric": "euclidean",
+        "min_samples": 5,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.15509243159992628,
+      "davies_bouldin_index": 1.6469436395892474,
+      "calinski_harabasz_index": 156.47740438743566,
+      "fit_seconds": 0.26757290004752576
+    },
+    {
+      "candidate": 2,
+      "params": {
+        "eps": 0.7688974709753515,
+        "metric": "euclidean",
+        "min_samples": 10,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.22308103436905102,
+      "davies_bouldin_index": 1.5422542948197009,
+      "calinski_harabasz_index": 231.28280874248225,
+      "fit_seconds": 0.2338552000001073
+    },
+    {
+      "candidate": 3,
+      "params": {
+        "eps": 0.7688974709753515,
+        "metric": "euclidean",
+        "min_samples": 20,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.3727506802258811,
+      "davies_bouldin_index": 1.386249056437473,
+      "calinski_harabasz_index": 399.0076928427717,
+      "fit_seconds": 0.24203399999532849
+    },
+    {
+      "candidate": 4,
+      "params": {
+        "eps": 1.0251966279671354,
+        "metric": "euclidean",
+        "min_samples": 5,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.3123608646812136,
+      "davies_bouldin_index": 1.6292739652327886,
+      "calinski_harabasz_index": 229.36595940286418,
+      "fit_seconds": 0.27406269998755306
+    },
+    {
+      "candidate": 5,
+      "params": {
+        "eps": 1.0251966279671354,
+        "metric": "euclidean",
+        "min_samples": 10,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.2972458720766848,
+      "davies_bouldin_index": 1.7137919839425793,
+      "calinski_harabasz_index": 314.0298037412225,
+      "fit_seconds": 0.28380430000834167
+    },
+    {
+      "candidate": 6,
+      "params": {
+        "eps": 1.0251966279671354,
+        "metric": "euclidean",
+        "min_samples": 20,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.4499869423388321,
+      "davies_bouldin_index": 1.561048175084074,
+      "calinski_harabasz_index": 443.11017137827895,
+      "fit_seconds": 0.2572729999665171
+    },
+    {
+      "candidate": 7,
+      "params": {
+        "eps": 1.2814957849589192,
+        "metric": "euclidean",
+        "min_samples": 5,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.39594583514177506,
+      "davies_bouldin_index": 1.834850086605601,
+      "calinski_harabasz_index": 295.53481510356636,
+      "fit_seconds": 0.28653280006255955
+    },
+    {
+      "candidate": 8,
+      "params": {
+        "eps": 1.2814957849589192,
+        "metric": "euclidean",
+        "min_samples": 10,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.4851861271754877,
+      "davies_bouldin_index": 1.64214521369917,
+      "calinski_harabasz_index": 378.525800508297,
+      "fit_seconds": 0.30327949998900294
+    },
+    {
+      "candidate": 9,
+      "params": {
+        "eps": 1.2814957849589192,
+        "metric": "euclidean",
+        "min_samples": 20,
+        "n_jobs": -1
+      },
+      "silhouette_score": 0.5040226363735456,
+      "davies_bouldin_index": 1.6306023290427991,
+      "calinski_harabasz_index": 513.1626234628743,
+      "fit_seconds": 0.29031009995378554
+    }
+  ]
+}

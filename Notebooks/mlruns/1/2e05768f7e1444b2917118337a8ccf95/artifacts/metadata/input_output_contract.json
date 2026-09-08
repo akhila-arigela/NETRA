@@ -1,0 +1,72 @@
+{
+  "stage": 2,
+  "input": {
+    "type": "pandas.DataFrame",
+    "required_columns": [
+      "duration",
+      "protocoltype",
+      "service",
+      "flag",
+      "srcbytes",
+      "dstbytes",
+      "land",
+      "wrongfragment",
+      "urgent",
+      "hot",
+      "numfailedlogins",
+      "loggedin",
+      "numcompromised",
+      "rootshell",
+      "suattempted",
+      "numroot",
+      "numfilecreations",
+      "numshells",
+      "numaccessfiles",
+      "numoutboundcmds",
+      "ishostlogin",
+      "isguestlogin",
+      "count",
+      "srvcount",
+      "serrorrate",
+      "srvserrorrate",
+      "rerrorrate",
+      "srvrerrorrate",
+      "samesrvrate",
+      "diffsrvrate",
+      "srvdiffhostrate",
+      "dsthostcount",
+      "dsthostsrvcount",
+      "dsthostsamesrvrate",
+      "dsthostdiffsrvrate",
+      "dsthostsamesrcportrate",
+      "dsthostsrvdiffhostrate",
+      "dsthostserrorrate",
+      "dsthostsrvserrorrate",
+      "dsthostrerrorrate",
+      "dsthostsrvrerrorrate"
+    ],
+    "precondition": "Stage 1 classified row as Attack"
+  },
+  "predict_output": {
+    "type": "integer class index",
+    "mapping": {
+      "0": "DoS",
+      "1": "Probe",
+      "2": "R2L",
+      "3": "U2R"
+    }
+  },
+  "predict_proba_output": {
+    "shape": [
+      "rows",
+      4
+    ],
+    "column_order": [
+      "DoS",
+      "Probe",
+      "R2L",
+      "U2R"
+    ],
+    "row_sum": 1.0
+  }
+}

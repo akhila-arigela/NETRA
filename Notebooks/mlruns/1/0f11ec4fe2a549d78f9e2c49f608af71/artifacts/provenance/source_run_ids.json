@@ -1,0 +1,8 @@
+{
+  "supervised_attack_classifier": "2e05768f7e1444b2917118337a8ccf95",
+  "global_attack_novelty": "1d3ecbadc26a456cba7bafdf793ca70b",
+  "category_DoS": "dcce917c4d0f4071b0e4437eb002da10",
+  "category_Probe": "c5835846bfeb48108904a8cb03f6a776",
+  "category_R2L": "65b4fc481c54490aa94a8f43ab2a2d30",
+  "category_U2R": "86f2813a1eaa433a9a96bcbea67ce4bc"
+}

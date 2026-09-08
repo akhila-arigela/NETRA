@@ -1,0 +1,64 @@
+artifact_path: file:///d:/E Drive/Sentiflow-Network Intrusion Detection/Notebooks/mlruns/1/models/m-e7ea75f1f4f94f3da68fc04cd38091bf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-e7ea75f1f4f94f3da68fc04cd38091bf
+model_size_bytes: 32669
+model_uuid: m-e7ea75f1f4f94f3da68fc04cd38091bf
+prompts: null
+run_id: 65b4fc481c54490aa94a8f43ab2a2d30
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "duration", "required": true}, {"type": "string",
+    "name": "protocoltype", "required": true}, {"type": "string", "name": "service",
+    "required": true}, {"type": "string", "name": "flag", "required": true}, {"type":
+    "long", "name": "srcbytes", "required": true}, {"type": "long", "name": "dstbytes",
+    "required": true}, {"type": "long", "name": "land", "required": true}, {"type":
+    "long", "name": "wrongfragment", "required": true}, {"type": "long", "name": "urgent",
+    "required": true}, {"type": "long", "name": "hot", "required": true}, {"type":
+    "long", "name": "numfailedlogins", "required": true}, {"type": "long", "name":
+    "loggedin", "required": true}, {"type": "long", "name": "numcompromised", "required":
+    true}, {"type": "long", "name": "rootshell", "required": true}, {"type": "long",
+    "name": "suattempted", "required": true}, {"type": "long", "name": "numroot",
+    "required": true}, {"type": "long", "name": "numfilecreations", "required": true},
+    {"type": "long", "name": "numshells", "required": true}, {"type": "long", "name":
+    "numaccessfiles", "required": true}, {"type": "long", "name": "numoutboundcmds",
+    "required": true}, {"type": "long", "name": "ishostlogin", "required": true},
+    {"type": "long", "name": "isguestlogin", "required": true}, {"type": "long", "name":
+    "count", "required": true}, {"type": "long", "name": "srvcount", "required": true},
+    {"type": "double", "name": "serrorrate", "required": true}, {"type": "double",
+    "name": "srvserrorrate", "required": true}, {"type": "double", "name": "rerrorrate",
+    "required": true}, {"type": "double", "name": "srvrerrorrate", "required": true},
+    {"type": "double", "name": "samesrvrate", "required": true}, {"type": "double",
+    "name": "diffsrvrate", "required": true}, {"type": "double", "name": "srvdiffhostrate",
+    "required": true}, {"type": "long", "name": "dsthostcount", "required": true},
+    {"type": "long", "name": "dsthostsrvcount", "required": true}, {"type": "double",
+    "name": "dsthostsamesrvrate", "required": true}, {"type": "double", "name": "dsthostdiffsrvrate",
+    "required": true}, {"type": "double", "name": "dsthostsamesrcportrate", "required":
+    true}, {"type": "double", "name": "dsthostsrvdiffhostrate", "required": true},
+    {"type": "double", "name": "dsthostserrorrate", "required": true}, {"type": "double",
+    "name": "dsthostsrvserrorrate", "required": true}, {"type": "double", "name":
+    "dsthostrerrorrate", "required": true}, {"type": "double", "name": "dsthostsrvrerrorrate",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-11 11:31:01.664391'

@@ -1,0 +1,30 @@
+{
+  "DoS": {
+    "algorithm": "OneClassSVM",
+    "threshold": 11.329086124554173,
+    "fit_rows": 6000,
+    "reference_rows": 5151,
+    "encoded_dimensions": 103
+  },
+  "Probe": {
+    "algorithm": "IsolationForest",
+    "threshold": -0.07113437678923284,
+    "fit_rows": 5206,
+    "reference_rows": 1302,
+    "encoded_dimensions": 111
+  },
+  "R2L": {
+    "algorithm": "OneClassSVM",
+    "threshold": 1.3985500605179375,
+    "fit_rows": 427,
+    "reference_rows": 107,
+    "encoded_dimensions": 51
+  },
+  "U2R": {
+    "algorithm": "OneClassSVM",
+    "threshold": 0.17597808170726711,
+    "fit_rows": 28,
+    "reference_rows": 8,
+    "encoded_dimensions": 46
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "python": "3.10.4",
+  "sklearn": "1.7.2",
+  "xgboost": "3.2.0",
+  "mlflow": "3.14.0",
+  "split_design": "external 20% test; training pool split 70/15/15 fit/reference/validation",
+  "unknown_class_ground_truth_available": false
+}

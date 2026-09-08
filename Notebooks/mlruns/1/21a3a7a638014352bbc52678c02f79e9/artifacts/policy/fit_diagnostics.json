@@ -1,0 +1,57 @@
+{
+  "known_categories": [
+    "DoS",
+    "Probe",
+    "R2L",
+    "U2R"
+  ],
+  "category_training_rows": 32833,
+  "attack_novelty_training_rows": 6000,
+  "attack_reference_rows": 7035,
+  "route_thresholds": {
+    "ROUTE_STAGE_2": {
+      "route": "ROUTE_STAGE_2",
+      "unknown_score_threshold": 0.29493727467714753,
+      "calibration_sample_count": 7027,
+      "source": "route_specific",
+      "allowed_known_rejection_rate": 0.02,
+      "diagnostic_min_confidence": 0.999502677226836,
+      "diagnostic_min_margin": 0.9993148757723999,
+      "diagnostic_max_entropy": 0.0034812795372603043,
+      "diagnostic_max_attack_novelty": 0.9801705514496872
+    },
+    "NOVEL_ANOMALY_CANDIDATE": {
+      "route": "NOVEL_ANOMALY_CANDIDATE",
+      "unknown_score_threshold": 0.2705722945748167,
+      "calibration_sample_count": 7036,
+      "source": "global_known_fallback",
+      "allowed_known_rejection_rate": 0.1,
+      "diagnostic_min_confidence": 0.9995172208429521,
+      "diagnostic_min_margin": 0.9993440064472542,
+      "diagnostic_max_entropy": 0.003389155747914774,
+      "diagnostic_max_attack_novelty": 0.8992325184764071
+    },
+    "REVIEW_DISAGREEMENT": {
+      "route": "REVIEW_DISAGREEMENT",
+      "unknown_score_threshold": 0.2869243180492094,
+      "calibration_sample_count": 7036,
+      "source": "global_known_fallback",
+      "allowed_known_rejection_rate": 0.05,
+      "diagnostic_min_confidence": 0.9995172208429521,
+      "diagnostic_min_margin": 0.9993440064472542,
+      "diagnostic_max_entropy": 0.003389155747914774,
+      "diagnostic_max_attack_novelty": 0.9531338828880045
+    }
+  },
+  "validation_route_counts": {
+    "NOVEL_ANOMALY_CANDIDATE": 4,
+    "RETURN_NORMAL": 8000,
+    "REVIEW_DISAGREEMENT": 78,
+    "ROUTE_STAGE_2": 7035
+  },
+  "validation_known_attack_counts": {
+    "RETURN_NORMAL": 7,
+    "REVIEW_DISAGREEMENT": 2,
+    "ROUTE_STAGE_2": 7027
+  }
+}

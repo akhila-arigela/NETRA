@@ -1,0 +1,1 @@
+{"columns":["attack_family","attack_type","support","detected","detection_rate"],"data":[["DoS","back",19,0,0.0],["DoS","pod",6,0,0.0],["U2R","loadmodule",1,0,0.0],["U2R","rootkit",1,0,0.0]]}

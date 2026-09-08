@@ -1,0 +1,62 @@
+artifact_path: file:///d:/E Drive/Sentiflow-Network Intrusion Detection/Notebooks/mlruns/1/models/m-4f081d74f5474b5a865036dfd7ae2b87/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-4f081d74f5474b5a865036dfd7ae2b87
+model_size_bytes: 45447
+model_uuid: m-4f081d74f5474b5a865036dfd7ae2b87
+prompts: null
+run_id: c6e7f1cccf7043c8a91e9fdbe1b3e732
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "src_byte_fraction", "required": true}, {"type":
+    "double", "name": "src_dst_byte_ratio", "required": true}, {"type": "double",
+    "name": "total_bytes", "required": true}, {"type": "double", "name": "srcbytes",
+    "required": true}, {"type": "double", "name": "bytes_per_second", "required":
+    true}, {"type": "double", "name": "byte_asymmetry", "required": true}, {"type":
+    "string", "name": "service", "required": true}, {"type": "double", "name": "service_connection_ratio",
+    "required": true}, {"type": "double", "name": "dstbytes", "required": true}, {"type":
+    "double", "name": "dst_byte_fraction", "required": true}, {"type": "double", "name":
+    "host_service_ratio", "required": true}, {"type": "double", "name": "host_scan_pressure",
+    "required": true}, {"type": "double", "name": "host_error_score", "required":
+    true}, {"type": "double", "name": "different_service_connections", "required":
+    true}, {"type": "double", "name": "short_term_scan_pressure", "required": true},
+    {"type": "string", "name": "flag", "required": true}, {"type": "double", "name":
+    "diffsrvrate", "required": true}, {"type": "double", "name": "samesrvrate", "required":
+    true}, {"type": "double", "name": "short_term_error_score", "required": true},
+    {"type": "double", "name": "dsthostsrvcount", "required": true}, {"type": "double",
+    "name": "different_host_service_connections", "required": true}, {"type": "double",
+    "name": "dsthostsamesrvrate", "required": true}, {"type": "double", "name": "host_serror_score",
+    "required": true}, {"type": "double", "name": "loggedin", "required": true}, {"type":
+    "double", "name": "dsthostserrorrate", "required": true}, {"type": "double", "name":
+    "dsthostdiffsrvrate", "required": true}, {"type": "double", "name": "dsthostsrvserrorrate",
+    "required": true}, {"type": "double", "name": "serrorrate", "required": true},
+    {"type": "double", "name": "short_term_serror_score", "required": true}, {"type":
+    "double", "name": "srvserrorrate", "required": true}, {"type": "double", "name":
+    "count", "required": true}, {"type": "double", "name": "same_source_port_pressure",
+    "required": true}, {"type": "double", "name": "dsthostsrvdiffhostrate", "required":
+    true}, {"type": "double", "name": "dsthostcount", "required": true}, {"type":
+    "double", "name": "dsthostsamesrcportrate", "required": true}, {"type": "double",
+    "name": "same_service_rate_gap", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-04 05:58:53.844993'

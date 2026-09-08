@@ -1,0 +1,1 @@
+{"columns":["category_model","source_attack_category","support","novel_rejection_rate","mean_anomaly_score"],"data":[["DoS","DoS",9186,0.0106684084,-0.1554932752],["DoS","Probe",2331,0.4912054912,-0.0142218577],["DoS","R2L",199,0.6030150754,-0.0019924202],["DoS","U2R",10,0.8,0.0313112134]]}

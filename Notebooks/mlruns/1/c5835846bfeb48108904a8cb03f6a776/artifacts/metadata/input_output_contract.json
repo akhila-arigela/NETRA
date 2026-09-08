@@ -1,0 +1,57 @@
+{
+  "input": {
+    "type": "pandas.DataFrame",
+    "required_columns": [
+      "duration",
+      "protocoltype",
+      "service",
+      "flag",
+      "srcbytes",
+      "dstbytes",
+      "land",
+      "wrongfragment",
+      "urgent",
+      "hot",
+      "numfailedlogins",
+      "loggedin",
+      "numcompromised",
+      "rootshell",
+      "suattempted",
+      "numroot",
+      "numfilecreations",
+      "numshells",
+      "numaccessfiles",
+      "numoutboundcmds",
+      "ishostlogin",
+      "isguestlogin",
+      "count",
+      "srvcount",
+      "serrorrate",
+      "srvserrorrate",
+      "rerrorrate",
+      "srvrerrorrate",
+      "samesrvrate",
+      "diffsrvrate",
+      "srvdiffhostrate",
+      "dsthostcount",
+      "dsthostsrvcount",
+      "dsthostsamesrvrate",
+      "dsthostdiffsrvrate",
+      "dsthostsamesrcportrate",
+      "dsthostsrvdiffhostrate",
+      "dsthostserrorrate",
+      "dsthostsrvserrorrate",
+      "dsthostrerrorrate",
+      "dsthostsrvrerrorrate"
+    ]
+  },
+  "output": {
+    "is_novel": {
+      "0": "resembles known Probe",
+      "1": "novel relative to Probe"
+    },
+    "anomaly_score": "larger means more category-novel",
+    "novelty_percentile": "relative to held-out Probe reference scores"
+  },
+  "decision_rule": "anomaly_score >= score_threshold"
+}

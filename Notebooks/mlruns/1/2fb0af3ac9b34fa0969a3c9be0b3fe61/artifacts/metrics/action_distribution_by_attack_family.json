@@ -1,0 +1,1 @@
+{"columns":["attack_category","Novel_Anomaly_Candidate","Return_Normal","Review","Route_to_Stage2"],"data":[["DoS",0,0,0,9105],["Normal",68,10778,2614,9],["Probe",0,0,6,2383],["R2L",0,0,3,223],["U2R",0,0,0,6]]}

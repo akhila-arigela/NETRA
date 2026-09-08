@@ -1,0 +1,74 @@
+artifact_path: file:///d:/E Drive/Sentiflow-Network Intrusion Detection/Notebooks/mlruns/1/models/m-90f006d357ac40b596e40e177e4a9d90/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-90f006d357ac40b596e40e177e4a9d90
+model_size_bytes: 413652
+model_uuid: m-90f006d357ac40b596e40e177e4a9d90
+prompts: null
+run_id: 260e6137841b4c77a33daf9a33b6ff82
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "duration", "required": true}, {"type": "double",
+    "name": "wrongfragment", "required": true}, {"type": "double", "name": "hot",
+    "required": true}, {"type": "double", "name": "numfailedlogins", "required": true},
+    {"type": "double", "name": "loggedin", "required": true}, {"type": "double", "name":
+    "numcompromised", "required": true}, {"type": "double", "name": "numroot", "required":
+    true}, {"type": "double", "name": "isguestlogin", "required": true}, {"type":
+    "double", "name": "count", "required": true}, {"type": "double", "name": "srvcount",
+    "required": true}, {"type": "double", "name": "serrorrate", "required": true},
+    {"type": "double", "name": "srvserrorrate", "required": true}, {"type": "double",
+    "name": "rerrorrate", "required": true}, {"type": "double", "name": "srvrerrorrate",
+    "required": true}, {"type": "double", "name": "samesrvrate", "required": true},
+    {"type": "double", "name": "diffsrvrate", "required": true}, {"type": "double",
+    "name": "dsthostcount", "required": true}, {"type": "double", "name": "dsthostsrvcount",
+    "required": true}, {"type": "double", "name": "dsthostsamesrvrate", "required":
+    true}, {"type": "double", "name": "dsthostdiffsrvrate", "required": true}, {"type":
+    "double", "name": "dsthostsamesrcportrate", "required": true}, {"type": "double",
+    "name": "dsthostsrvdiffhostrate", "required": true}, {"type": "double", "name":
+    "dsthostserrorrate", "required": true}, {"type": "double", "name": "dsthostsrvserrorrate",
+    "required": true}, {"type": "double", "name": "dsthostrerrorrate", "required":
+    true}, {"type": "double", "name": "dsthostsrvrerrorrate", "required": true}, {"type":
+    "double", "name": "src_byte_fraction", "required": true}, {"type": "double", "name":
+    "dst_byte_fraction", "required": true}, {"type": "double", "name": "byte_asymmetry",
+    "required": true}, {"type": "double", "name": "host_service_ratio", "required":
+    true}, {"type": "double", "name": "different_service_connections", "required":
+    true}, {"type": "double", "name": "different_host_service_connections", "required":
+    true}, {"type": "double", "name": "short_term_scan_pressure", "required": true},
+    {"type": "double", "name": "host_scan_pressure", "required": true}, {"type": "double",
+    "name": "short_term_rerror_score", "required": true}, {"type": "double", "name":
+    "short_term_error_score", "required": true}, {"type": "double", "name": "host_serror_score",
+    "required": true}, {"type": "double", "name": "host_error_score", "required":
+    true}, {"type": "double", "name": "same_service_rate_gap", "required": true},
+    {"type": "double", "name": "different_service_rate_gap", "required": true}, {"type":
+    "double", "name": "serror_rate_gap", "required": true}, {"type": "double", "name":
+    "rerror_rate_gap", "required": true}, {"type": "double", "name": "authentication_risk_score",
+    "required": true}, {"type": "double", "name": "has_failed_login", "required":
+    true}, {"type": "double", "name": "failed_login_and_logged_in", "required": true},
+    {"type": "double", "name": "suspicious_admin_activity", "required": true}, {"type":
+    "double", "name": "privileged_activity_score", "required": true}, {"type": "double",
+    "name": "content_risk_score", "required": true}, {"type": "double", "name": "root_compromise_ratio",
+    "required": true}, {"type": "string", "name": "protocoltype", "required": true},
+    {"type": "string", "name": "flag", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-04 06:12:07.093907'

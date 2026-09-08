@@ -1,0 +1,1 @@
+{"columns":["predicted_attack_category","probability_Normal","probability_DoS","probability_Probe","probability_R2L","probability_U2R"],"data":[["DoS",0.0,1.0,0.0,0.0,0.0],["Normal",1.0,0.0,0.0,0.0,0.0],["Normal",1.0,0.0,0.0,0.0,0.0],["DoS",0.0,1.0,0.0,0.0,0.0],["DoS",0.0,1.0,0.0,0.0,0.0]]}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "dataset_rows": 125973,
+  "notebook_external_test_rows": 25195,
+  "notebook_output_rows_compared": 1000,
+  "feature_engineering": {
+    "passed": true,
+    "numeric_failures": {},
+    "text_failures": {}
+  },
+  "stage1_output": {
+    "passed": true,
+    "numeric_failures": {},
+    "text_failures": {}
+  },
+  "stage2_output": {
+    "passed": true,
+    "numeric_failures": {},
+    "text_failures": {}
+  },
+  "final_decisions_exact_match": true
+}
