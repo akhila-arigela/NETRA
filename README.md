@@ -1,4 +1,4 @@
-# Sentiflow / NETRA
+# NETRA
 
 ## Hybrid Network Intrusion Detection
 
